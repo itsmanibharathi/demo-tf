@@ -1,0 +1,9 @@
+name: terraform_run
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+    terraform_run:
+        uses: ./terraform_run.yml
