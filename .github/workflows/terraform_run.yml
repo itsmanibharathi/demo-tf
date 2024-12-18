@@ -6,4 +6,4 @@ on:
 
 jobs:
     terraform_run:
-        uses: ./terraform_run.yml
+        uses: itsmanibharathi/.github/workflows/terraform_template.yml@main
